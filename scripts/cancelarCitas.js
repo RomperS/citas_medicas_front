@@ -1,7 +1,7 @@
 import { fetchCitas } from "./obtenerDatos"
 
 function cancelarCita(dato) {
-    const url = `http://localhost:3000/api/citas/${dato}`; // URL con el dato
+    const url = `https://citasmedicasback-production.up.railway.app/api/citas/${dato}`; // URL con el dato
 
     fetch(url, {
         method: 'DELETE', // Cambia a 'POST' si necesitas enviar datos
